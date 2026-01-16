@@ -1,0 +1,17 @@
+{
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/Config",
+    "${workspaceFolder}/MCAL",
+    "${workspaceFolder}/HAL",
+    "${workspaceFolder}/Services",
+    "${workspaceFolder}/Application"
+  ],
+  "C_Cpp.default.defines": [
+    "MKL25Z128VLK4"
+  ],
+  "C_Cpp.default.compilerPath": "arm-none-eabi-gcc",
+  "files.associations": {
+    "*.h": "c",
+    "*.c": "c"
+  }
+}

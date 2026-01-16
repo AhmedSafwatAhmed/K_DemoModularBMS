@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "KL25Z",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "MKL25Z128VLK4"
+            ],
+            "compilerPath": "arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}
