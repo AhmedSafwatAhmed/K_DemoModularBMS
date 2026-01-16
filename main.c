@@ -17,15 +17,15 @@
 #include "board_config.h"
 
 /* MCAL Layer */
-#include "spi.h"
-#include "uart.h"
+#include "spi_mc33664b.h"      
+#include "uart_kl25z.h"        
 #include "pwm.h"
 #include "gpio.h"
 #include "timer.h"
 #include "i2c.h"
 
 /* HAL Layer */
-#include "slave_ctrl_if.h"
+#include "mc33771_driver.h"
 #include "lcd_if.h"
 
 /* Service Layer */
